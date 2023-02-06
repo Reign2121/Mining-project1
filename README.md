@@ -10,6 +10,8 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 label: "attrition"
 
+__________
+
 우선 저는 탐색적 데이터 분석(eda)에 있어서 "데이터를 잘 살펴볼 수 있는 코드를 디자인" 하는 것에 노력했습니다.
 
 이를 통해 레이블의 균형이 맞지 않는 것을 발견하여 이를 보완하기 위해 언더 샘플링 기법을 적용했습니다.
