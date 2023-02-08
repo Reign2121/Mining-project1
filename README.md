@@ -8,7 +8,7 @@ Data Mining using Decision Tree and codes
 
 https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset?datasetId=1067&searchQuery=deci
 
-label: "attrition"
+label: "attrition" (퇴사 여부)
 
 __________
 
