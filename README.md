@@ -49,14 +49,21 @@ __________
 <img width="475" alt="image" src="https://user-images.githubusercontent.com/121419113/218019232-b873014d-86b7-42ae-b49a-91c3b841060c.png">
 
 
+
+
 -보팅
 
 with SVM, Logistic Regression, DT
 
+
+
 -배깅 (랜덤 포레스트)
 
 변수중요도 산출
+
 <img width="784" alt="image" src="https://user-images.githubusercontent.com/121419113/218018621-aebbfd97-bce3-4d78-ae4b-dfe97db390f6.png">
+
+
 
 
 -부스팅 (xgboost)
