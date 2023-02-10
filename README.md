@@ -46,8 +46,27 @@ __________
 
 예측성능을 향상시키기 위해 앙상블 기법 여러 개를 구현하여 성능을 비교하였다.
 
+<img width="475" alt="image" src="https://user-images.githubusercontent.com/121419113/218019232-b873014d-86b7-42ae-b49a-91c3b841060c.png">
+
+
 -보팅
 
--배깅 (랜덤 포레스트
+with SVM, Logistic Regression, DT
+
+-배깅 (랜덤 포레스트)
+
+변수중요도 산출
+<img width="784" alt="image" src="https://user-images.githubusercontent.com/121419113/218018621-aebbfd97-bce3-4d78-ae4b-dfe97db390f6.png">
+
 
 -부스팅 (xgboost)
+
+랜덤포레스트와 큰 차이가 나지 않지많 가장 높은 정확도를 보인다.
+
+그런데, f-1 score에서는 xg부스트 모델이 랜덤포레스트에 비해 2배가 높다.
+
+이는 클래스 불균형 상태에도 꽤 높은 성능을 보일 수 있다는 것인데, 동시에 과적합 문제를 안고 있다고도 볼 수 있다.
+
+__________
+
+reference: https://seollane22.tistory.com/16
