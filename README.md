@@ -63,7 +63,7 @@ with SVM, Logistic Regression, DT
 
 <img width="784" alt="image" src="https://user-images.githubusercontent.com/121419113/218018621-aebbfd97-bce3-4d78-ae4b-dfe97db390f6.png">
 
-
+Monthly income, 즉, 한 달 월급이 분기에 있어서 가장 중요한 변수로 선정되었다. (퇴사에 있어서 가장 중요한 요인)
 
 
 -부스팅 (xgboost)
