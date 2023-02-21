@@ -50,13 +50,13 @@ __________
 
 
 
-
+</br>
 -보팅
 
 with SVM, Logistic Regression, DT
 
 
-
+</br>
 -배깅 (랜덤 포레스트)
 
 변수중요도 산출
@@ -66,6 +66,7 @@ with SVM, Logistic Regression, DT
 Monthly income, 즉, 한 달 월급이 분기에 있어서 가장 중요한 변수로 선정되었다. (퇴사에 있어서 가장 중요한 요인)
 
 
+</br>
 -부스팅 (xgboost)
 
 랜덤포레스트와 큰 차이가 나지 않지만 가장 높은 정확도를 보인다.
