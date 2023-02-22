@@ -24,6 +24,9 @@ __________
 
 저는 이 데이터에서 소수 클래스의 수가 250개가 채 되지 않아서 단순 랜덤샘플링으로 1450개에 달하는 다수 데이터를 무작위로 줄이면(수를 맞추면) 데이터의 왜곡이 크게 생길 수 있다고 보았습니다.
 
+또한 데이터 셋(train/test) 분리에 있어서도 y에 따라 층화추출하는 방법 또한 불균형 문제를 다루는 것에 유효하지만, 이 모델에서는 오히려 성능이 하락하는 것을 발견하여 이를 제외하였습니다.
+
+* train_test_split(x, y, test_size=.2, random_state=4) #,shuffle = True #True가 디폴트, stratify = y_samp 
 __________
 
 <img width="1206" alt="image" src="https://user-images.githubusercontent.com/121419113/217737145-f4bd5574-f405-4860-8de0-9a6ca01b37c5.png">
