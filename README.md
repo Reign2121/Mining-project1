@@ -49,6 +49,7 @@ __________
 
 예측성능을 향상시키기 위해 앙상블 기법 여러 개를 구현하여 성능을 비교하였다.
 
+
 <img width="475" alt="image" src="https://user-images.githubusercontent.com/121419113/218019232-b873014d-86b7-42ae-b49a-91c3b841060c.png">
 
 
