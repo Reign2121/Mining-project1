@@ -9,7 +9,7 @@ hr = hr.astype({'JobLevel': 'category', 'StockOptionLevel': 'category', 'Educati
                 'MaritalStatus':'category','Attrition':'category', 'OverTime':'category', 'Gender':'category',
                 'BusinessTravel':'category', 'Department':'category','EducationField':'category','JobRole':'category'
                 })
-#변수 제거(모두 같은 값만 가지므로
+#변수 제거(모두 같은 값만 가지므로)
 hr.drop(['EmployeeCount','StandardHours','Over18','EmployeeNumber'],axis=1,inplace=True)
 
 #의사결정나무는 정규화 불필요
