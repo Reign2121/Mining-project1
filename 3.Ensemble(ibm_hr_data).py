@@ -98,7 +98,7 @@ vc.score(x_test,y_test) #same as svm #mean accuracy
 
 """# **Bagging (random forest)**"""
 
-#랜덤 포레스트
+#RF
 from sklearn.ensemble import RandomForestClassifier
 
 rf=RandomForestClassifier(class_weight='balanced', criterion = "entropy", random_state = 25)
