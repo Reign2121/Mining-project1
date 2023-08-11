@@ -2,7 +2,7 @@
 
 Data Mining using Decision Tree and codes 
 
-주제: 조직관리방안의 일환으로, 분류 문제에 적합한 알고리즘들을 이용해 이탈(퇴사)모델을 만들어 시사점을 제시한다.
+주제: 조직관리방안의 일환으로 분류 문제에 적합한 알고리즘을 이용해 이탈(퇴사)모델을 만들어 시사점을 제시한다.
 
 데이터 : Human Resource data in kaggle made by ibm data scientist
 
